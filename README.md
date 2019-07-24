@@ -9,10 +9,10 @@ Header:	#include"imageprocess.h"<\br>
 Inherits:	QMainWindow<\br>
 
 Properties<\br>
-Mat image_M;//保存颜色空间为BGR的图片<\br>
-QImage image_Q;//保存颜色空间为RGB的图片<\br>
-int width_;//保存图片宽度<\br>
-int height_;//保存图片高度<\br>
+Mat image_M;//保存颜色空间为BGR的图片</br>
+QImage image_Q;//保存颜色空间为RGB的图片</br>
+int width_;//保存图片宽度</br>
+int height_;//保存图片高度</br>
 int brightness_;//保存亮度值中间变量<\br>
 int contrast_;//保存对比度值中间变量<\br>
 int threshold_;//保存阈值中间变量<\br>
