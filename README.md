@@ -41,7 +41,7 @@ void sliderForContrastInit();//对比度滑动条初始化<\br>
 void sliderForThresholdInit();//阈值滑动条初始化<\br>
 void getImageInformation();//获取图片长宽<\br>
 
-Private Slots
+Private Slots<\br>
 void getAndShowImage();//打开图片并显示<\br>
 void canny_();//Canny边缘检测<\br>
 void sobel_();//Sobel边缘检测<\br>
@@ -57,9 +57,9 @@ void r_(const int &channel=0,const int &channel_b=0,const int &channel_g=0,const
 void g_(const int &channel=1,const int &channel_b=0,const int &channel_g=255,const int &channel_r=0);//g通道直方图<\br>
 void b_(const int &channel=2,const int &channel_b=255,const int &channel_g=0,const int &channel_r=0);//b通道直方图<\br>
 void gray_(const int &channel=0,const int &channel_b=125,const int &channel_g=125,const int &channel_r=125);//灰度直方图<\br>
-void changeBrightness(int brightness);//改变亮度度
-void changeContrast(int contrast);//改变对比度
-void changeThreshold(int threshold);//改变阈值
-void faceDetect();//人脸检测
-void reset();//重置参数
+void changeBrightness(int brightness);//改变亮度度<\br>
+void changeContrast(int contrast);//改变对比度<\br>
+void changeThreshold(int threshold);//改变阈值<\br>
+void faceDetect();//人脸检测<\br>
+void reset();//重置参数<\br>
 
