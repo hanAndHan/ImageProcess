@@ -1,0 +1,33 @@
+﻿生成启动时间为 2018/2/20 15:35:58。
+     1>项目“C:\Users\Administrator\Desktop\imageprocess2\imageprocess\imageprocess.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\imageprocess.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\qt5.5.1\5.5\msvc2010\include /I.\GeneratedFiles\Debug /ID:\qt5.5.1\5.5\msvc2010\include\QtCore /ID:\qt5.5.1\5.5\msvc2010\include\QtGui /ID:\qt5.5.1\5.5\msvc2010\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_imageprocess.cpp imageprocess.cpp main.cpp
+         moc_imageprocess.cpp
+         imageprocess.cpp
+         main.cpp
+         正在生成代码...
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\imageprocess2\Win32\Debug\\imageprocess.exe" /NOLOGO /LIBPATH:D:\qt5.5.1\5.5\msvc2010\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\imageprocess.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\imageprocess2\Win32\Debug\imageprocess.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\imageprocess2\Win32\Debug\imageprocess.lib" /MACHINE:X86 Debug\imageprocess.res
+         Debug\moc_imageprocess.obj
+         Debug\qrc_imageprocess.obj
+         Debug\imageprocess.obj
+         Debug\main.obj
+         LINK : 没有找到 C:\Users\Administrator\Desktop\imageprocess2\Win32\Debug\\imageprocess.exe 或上一个增量链接没有生成它；正在执行完全链接
+         imageprocess.vcxproj -> C:\Users\Administrator\Desktop\imageprocess2\Win32\Debug\imageprocess.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Desktop\imageprocess2\Win32\Debug\\imageprocess.exe;#1" /manifest Debug\imageprocess.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\imageprocess.unsuccessfulbuild”。
+         正在对“Debug\imageprocess.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\imageprocess2\imageprocess\imageprocess.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.63
