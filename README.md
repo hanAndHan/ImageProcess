@@ -31,6 +31,7 @@ QLabel *lableRoot;//显示图片路径</br>
 QSlider *sliderForBright;//亮度调节滑动条</br>
 QSlider *sliderForContrast;//对比度调节滑动条</br>
 QSlider *sliderForThreshold;//阈值调节滑动条</br>
+
 Public Functions</br>
 void showGetImage();//显示读取到的图片</br>
 void showProImage();//显示处理后的图片</br>
